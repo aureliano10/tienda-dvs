@@ -10,6 +10,10 @@ import HeroBanner from './pages/HeroBanner.jsx';
 import CategoriesSection from './pages/CategoriesSection.jsx';
 import FeaturedDeals from './pages/FuturedDeals.jsx';
 import RelatedContent from './pages/RelatedContent.jsx';
+import PromoBanner from './pages/PromoBanner.jsx';
+import SpecialOffersCarousel from './pages/SpecialOffersCarousel.jsx';
+import Newsletter from './pages/Newsletter.jsx';
+import Footer from './pages/Footer.jsx';
 
 const container = document.getElementById('root');
 if (!container) {
@@ -24,6 +28,10 @@ if (!container) {
       <CategoriesSection />
       <FeaturedDeals />
       <RelatedContent />
+      <PromoBanner />
+      <SpecialOffersCarousel />
+      <Newsletter />
+      <Footer />
     </React.StrictMode>
   );
 }

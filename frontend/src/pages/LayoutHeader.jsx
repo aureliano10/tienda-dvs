@@ -11,7 +11,7 @@ const LayoutHeader = () => {
     {/* LOGO */}
     <div className="d-flex align-items-center me-auto me-md-4" role="button">
       <i className="bi bi-house-fill fs-2 text-danger me-2" />
-      <h1 className="fs-4 fw-bold mb-0">MusicApp</h1>
+      <h1 className="fs-4 fw-bold mb-0">MusicStore</h1>
     </div>
 
     {/* MOBILE CART + USER */}
@@ -32,9 +32,9 @@ const LayoutHeader = () => {
         </button>
         <ul className="dropdown-menu dropdown-menu-end">
           <li><button className="dropdown-item">Mi Perfil</button></li>
-          <li><button className="dropdown-item">Crear Servicio</button></li>
+          <li><button className="dropdown-item">Vender</button></li>
           <li><button className="dropdown-item">Mis Compras</button></li>
-          <li><button className="dropdown-item">Mis Reservas</button></li>
+          <li><button className="dropdown-item">Favoritos</button></li>
           <li><button className="dropdown-item">Panel Admin</button></li>
           <li><button className="dropdown-item">Newsletter</button></li>
           <li><hr className="dropdown-divider" /></li>
@@ -66,7 +66,7 @@ const LayoutHeader = () => {
           style={{ cursor: "pointer" }}
         >
           <i className="bi bi-geo-alt-fill me-2 text-secondary" />
-          <span className="text-muted small">Madrid</span>
+          <span className="text-muted small">Córdoba</span>
         </div>
       </form>
 
@@ -87,9 +87,9 @@ const LayoutHeader = () => {
           </button>
           <ul className="dropdown-menu dropdown-menu-end">
             <li><button className="dropdown-item">Mi Perfil</button></li>
-            <li><button className="dropdown-item">Crear Servicio</button></li>
+            <li><button className="dropdown-item">Vender</button></li>
             <li><button className="dropdown-item">Mis Compras</button></li>
-            <li><button className="dropdown-item">Mis Reservas</button></li>
+            <li><button className="dropdown-item">Favoritos</button></li>
             <li><button className="dropdown-item">Panel Admin</button></li>
             <li><button className="dropdown-item">Newsletter</button></li>
             <li><hr className="dropdown-divider" /></li>
