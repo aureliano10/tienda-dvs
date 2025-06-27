@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import HeroBanner from './pages/HeroBanner.jsx';
+import CategoriesSection from './pages/CategoriesSection.jsx';
+import FeaturedDeals from './pages/FuturedDeals.jsx';
+import RelatedContent from './pages/RelatedContent.jsx';
 
 const container = document.getElementById('root');
 if (!container) {
@@ -18,6 +21,9 @@ if (!container) {
     <React.StrictMode>
       <Layout />
       <HeroBanner />
+      <CategoriesSection />
+      <FeaturedDeals />
+      <RelatedContent />
     </React.StrictMode>
   );
 }
