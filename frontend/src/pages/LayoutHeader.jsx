@@ -58,7 +58,7 @@ const LayoutHeader = () => {
         <input
           type="text"
           className="form-control me-2 rounded-pill"
-          placeholder="Busca restaurantes, spas, actividades..."
+          placeholder="Busca guitarras, baterías, bajos..."
           readOnly
         />
         <div

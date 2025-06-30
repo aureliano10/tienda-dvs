@@ -1,4 +1,4 @@
-#!/home/nico/Escritorio/TIENDA-DVS/backend/venv/bin/python3
+#!/home/marucha/Escritorio/tienda-dvs/backend/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
